@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>jQuery Tutorial</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="divTest">
+			<ul>
+        		<li class="bold">Test 1</li>
+        		<li>Test 2</li>
+        		<li class="bold">Test 3</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+				$("li.bold").css("font-weight", "bold");
+			});
+		</script>
+	</body>
+</html>

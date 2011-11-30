@@ -1,0 +1,56 @@
+<html>
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+
+	$('.button').click(function(event){
+
+
+		$(this).hide();
+		$('#barberPole').show('slow');
+		$('#a050040form').submit();
+			
+		});
+});
+</script>
+</head>
+<body>
+<form method="POST" class="formToValidate" id="a050040form" action="savemailinfos.do">
+<input id="submitKey" name="submitKey" value="4f3689cfa5474a286de23a316234e98f72741b00e2509792" type="hidden"/>
+<input name="identifier" id="identifier" value="a050040" type="hidden" />									
+<input name="login" id="login" value="a050040" type="hidden" />									
+<input name="firstname" id="firstname" value="Walter" type="hidden" />									
+<input name="lastname" id="lastname" value="De Smedt" type="hidden" />
+<input name="type" id="type" value="existingMail" type="hidden" />									
+
+<div class="panes0">
+	
+	<div id="emails0" class="roundboxWhite">
+		<div class="roundboxWhiteTop"><div class="left"></div><div class="right"></div></div>
+		
+		<div class="roundboxWhiteContent">
+
+			<input type="text" class="unique" name="a050040alias0" value="celludriel1" /> @ telenet.be<input type="hidden" name="domain" value="telenet.be"><br>
+			<label for="a050040alias0" class="error" generated="true"></label>
+			<input type="text" class="unique" name="a050040alias1" value="walter.de.smedt2" /> @ telenet.be<input type="hidden" name="domain" value="telenet.be"><br>
+			<label for="a050040alias1" class="error" generated="true"></label>
+				<input type="text" class="unique" name="a050040alias2" value="" /> @ telenet.be<input type="hidden" name="domain" value="telenet.be"><br>
+				<label for="a050040alias2" class="error" generated="true"></label>  								
+				<input type="text" class="unique" name="a050040alias3" value="" /> @ telenet.be<input type="hidden" name="domain" value="telenet.be"><br>
+
+				<label for="a050040alias3" class="error" generated="true"></label>  								
+				<input type="text" class="unique" name="a050040alias4" value="" /> @ telenet.be<input type="hidden" name="domain" value="telenet.be"><br>
+				<label for="a050040alias4" class="error" generated="true"></label>  								
+		</div>
+		
+		<div class="roundboxWhiteBot"><div class="left"></div><div class="right"></div></div><br>
+		
+		<input class="button FloatRight" type="submit" value='Bevestig aanpassingen' />
+		<div id="barberPole" style="display : none"><img id="barber" src="/mijntelenet/static/gfx/loaderBarber150.gif" style="display:block;margin-left:auto;margin-right:auto;" /></div>
+	</div>
+
+</div>
+</form>	
+</body>
+</html>
